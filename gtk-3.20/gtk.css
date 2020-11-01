@@ -1,0 +1,15 @@
+@import url("resource:///org/numixproject/gtk-3.20/dist/gtk.css");
+
+.titlebutton.minimize, .titlebutton.maximize, .titlebutton.close  {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.titlebutton.minimize:hover, .titlebutton.maximize:hover {
+  background-color: rgba(255, 255, 255, .5);
+  color: #333;
+}
+
+.titlebutton.close:hover {
+  background-color: #f40;
+  color: #fff;
+}
